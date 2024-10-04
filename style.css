@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+}
+
+.container{
+    display: flex;
+    width: 500px;
+    height: 600px;
+    background-image: url('image/bg-img5.avif');
+    background-size: cover;
+    background-position: center;
+    /* background-color: #08090E; */
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+
+.profile-content{
+    width: 350px;
+    height: 400px;
+    background-image: url(image/bg-img6.avif);
+    /* background-color: #27262C; */
+    border-radius: 10px;
+}
+
+
+.profile-pic img{
+    margin: 16px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 8px solid #5C5E61;
+}
+
+.profile-heading{
+    color: #fff;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.profle-detail{
+    margin-top: 8px;
+    color: #fff;
+}
+
+.share img{
+    margin-top: 20px;
+    width: 40px;
+    border-radius: 50px;
+    border: 8px solid #5C5E61;
+}
+
+.profile-button button{
+    margin: 10px 15px;
+    padding: 8px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    background-color: #5C5E61;
+}
+
+
+/* body {
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+/* .card-container {
+    position: relative;
+    width: 300px;
+    height: 400px;
+} */
+
+/* .background-circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    filter: blur(50px);
+} */
+
+/* .blue {
+    background-color: #2871ff;
+    top: -60px;
+    left: -60px;
+} */
+
+/* .orange {
+    background-color: #f69c00;
+    bottom: -40px;
+    right: -40px;
+} */
+
+/* .profile-card {
+    background-color: #1d1d1d;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    position: relative;
+} */
+
+/* .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+} */
+
+/* h2 {
+    color: white;
+    font-size: 22px;
+} */
+
+/* p {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+} */
+
+/* .social-icons {
+    margin-bottom: 20px;
+} */
+
+/* .social-icons a {
+    margin: 0 10px;
+} */
+
+/* .social-icons img {
+    width: 24px;
+    height: 24px;
+} */
+
+/* .buttons {
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .message-btn, .subscribe-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+} */
+
+/* .message-btn {
+    background-color: #444;
+    color: white;
+} */
+
+/* .subscribe-btn {
+    background-color: #f69c00;
+    color: white;
+} */
